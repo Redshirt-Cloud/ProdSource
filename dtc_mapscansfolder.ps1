@@ -1,3 +1,5 @@
+net use s: /delete
+start-sleep 20
 
 # Check if the drive letter is already in use
 if (!(Test-Path "S:")) {
